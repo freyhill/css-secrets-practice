@@ -1,0 +1,35 @@
+
+body{
+    color: #333;
+    
+}
+.current-color{
+    background: currentColor;
+}
+a{
+    color: inherit; /*继承body的颜色*/
+    color: currentColor;
+}
+
+.tip{
+    width: 300px;
+    height: 100px;
+    border-radius: 6px;
+    background: darkkhaki;
+    padding: 10px;
+    position: relative;
+    border:0.0625em solid sandybrown;
+}
+.tip::before{
+    content: "";
+    position: absolute;
+    top: -0.5625em;
+    left: 1em;
+    padding: 0.5em;
+    background: inherit;
+    border:inherit;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+ 
+}
