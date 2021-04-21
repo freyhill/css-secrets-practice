@@ -1,8 +1,11 @@
-
-body{
+:root{
     color: #333;
-    
+    --h5-fontsize: 30px;
+    --title-color: red;
+    --content-color: blue;  
+    --theme-color: #ff1110;
 }
+
 .current-color{
     background: currentColor;
 }
@@ -32,4 +35,25 @@ a{
     border-bottom: 0;
     transform: rotate(45deg);
  
+}
+.father{
+    border: 1px solid #999;
+    padding:10px;
+    --title-color: green;
+}
+.father *{
+    border:inherit;
+    padding: inherit;
+    color:inherit;
+    
+}
+
+.title{
+    color: var(--title-color);
+}
+.content{
+    color: var(--content-color);
+}
+button{
+    background: var(--theme-color);
 }
