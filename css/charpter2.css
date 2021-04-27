@@ -1,0 +1,21 @@
+html{
+    background: url('../assets/pic.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.border{
+    border: 10px solid hsla(0, 10%, 100%, .5);
+    background: #fff;
+    width: 100px;
+    height: 50px;
+    background-clip:padding-box; /**/
+}
+
+.more-border{
+    margin:100px;
+    padding:30px;
+    box-shadow: 0 0 0 10px #655,0 0 0 20px rebeccapurple,0 0 0 30px blueviolet,0 0 0 40px chocolate;
+
+}

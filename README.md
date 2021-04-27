@@ -14,3 +14,6 @@
     color: var(--theme-color);
 }
 ```
+
+# chapter2 
+* background-clip属性初始值为border-box 意味着背景会侵入到border，若不希望背景侵入border则设置为 padding-box
